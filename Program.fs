@@ -6,13 +6,13 @@ open System
 let aDay (day: int): string =
     match day with
     | 1  -> Day1.solve
-    //| 2  -> Day2.solv
+    | 2  -> Day2.solve
     | _ -> ""
 
 let all: string =
     String.concat "\n--- --- ---\n" 
         [
-            Day1.solve;
+            //Day1.solve;
             //Day2.solve
         ]
 
